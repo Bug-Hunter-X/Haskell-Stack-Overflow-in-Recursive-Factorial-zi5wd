@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Haskell: stack overflow due to the lack of automatic tail-call optimization in recursive functions. The `factorial.hs` file contains a naive recursive implementation that suffers from this issue. The `factorial_optimized.hs` file provides a corrected version using an accumulator to achieve tail recursion and avoid stack overflow.
